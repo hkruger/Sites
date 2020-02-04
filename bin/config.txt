@@ -1,0 +1,9 @@
+#basic config settings
+
+INDIR="E:\Vodacom\Sites to do"
+
+APPDIR="c:\Vodacom"
+
+SINGLESITE="Y"
+
+ONE_SITE="Bellair"

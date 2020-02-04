@@ -1,0 +1,19 @@
+#!/usr/bin/php -f
+
+<?php
+   $im = imagecreatefromjpeg("image.jpg");
+   $crop_area = array('x'=>0,'y'=> 0,'width'=>640,'height'=>960);
+   $result = imagecrop($im, $crop_area);
+   imagejpeg($result,"result.jpg");
+?>
+To call from Terminal, you would save it in a file, called say chopper and then make the file executable like this:
+
+chmod +x chopper
+and then you could run it by typing:
+
+./chopper
+
+
+
+# IFS="$(printf '\n\t')"; for x in `ls hello\ world/*`; do cp $x $x-new; done; unset IFS
+# https://www.hecticgeek.com/2014/02/spaces-file-names-command-line/

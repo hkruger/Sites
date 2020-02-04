@@ -1,0 +1,172 @@
+body					{	background-color:#000; 
+							padding:10px 40px;
+							font-family:"Century Gothic", Times, serif;
+							}
+							
+p						{   color:#CCC;
+							font-size:18px;
+							}
+							
+p a						{   color:#FFF;
+							}
+
+h1, h2, h3				{	font-family:Birdman, sans-serif, Arial;	
+							color:#FFF;
+							font-size:32px;
+							}
+								
+#wrapper				{	width:900px;
+							height:auto;
+							margin:5px auto;
+							background-image:url(../images/page_images/background%20image.jpg);
+							}		
+
+#logo					{	float:left;
+							margin:15px;
+							margin-left:68px;
+							}
+
+/* ######################## */
+/* General Navigation Rules */
+/* ######################## */
+
+#topnav					{	clear:both;
+							margin:0px 68px;
+							background-color:#000;
+							}
+							
+#topnav	ul				{	padding:10px 0px;
+							border:1px #000 solid;
+							text-align:center;
+							margin:0px 0px;
+							} 
+							
+#topnav	ul li			{	display:inline;
+							list-style-type:none;  
+							padding:5px 7px;
+							border:1px #FFF solid;
+							font-family:Birdman, sans-serif, Arial;
+							font-weight:bold;
+							text-decoration:none;
+							}
+
+a:link					{	color:#FFF;
+							text-decoration:none;
+							}
+							
+a:visited				{	color:#FFF;
+							text-decoration:none;
+							}
+							
+a:active				{	color:#FFF;
+							text-decoration:underline;
+							}
+							
+a:hover					{	color:#03F;
+							text-decoration:underline;
+							background-image:url(../images/page_images/buttonback%20b.png);
+							background-position:center;
+							
+							}		
+												
+a:focus					{	color:#00F;
+							}		
+
+/* ##################### */
+/* General Content Rules */
+/* ##################### */
+
+#content-wrapper		{	padding:20px 0px;
+							margin:5px auto;
+							}
+
+#content1				{	width:680px;
+							font-size:18px;
+							line-height:175%;
+							margin:0px 68px;
+							padding:0px 40px;
+							}
+
+#content2				{	width:685px;
+							font-size:18px;
+							line-height:175%;
+							margin:0px 68px;;
+							padding:0px 40px;
+							}
+
+#content3 				{	width:685px;
+							font-size:18px;
+							line-height:175%;
+							margin:0px 68px;
+							padding:0px 40px;
+							}
+							
+#content4				{	width:685px;
+							font-size:15px;
+							color:#FFF;
+							line-height:175%;
+							margin:0px 68px;
+							padding:0px 40px;
+							}
+							
+#content5				{	width:685px;
+							font-size:15px;
+							color:#FFF;
+							line-height:175%;
+							padding:10px 60px;
+							margin:20px 50px;
+							}
+							
+							
+
+#contentHeading 		{	width:500px;
+							font-size:18px;
+							line-height:175%;
+							margin:0px 68px;
+							padding:0px 40px;
+							color:#FFF;
+							}
+							
+#VideoPlayer			{ 	color:#FFF;
+							background-color:#000;
+							}
+
+#footer					{	text-align:center;
+							margin:0px 68px;
+							color:#999;
+							}
+
+/* ##################### */
+/* General Reel Rules */
+/* ##################### */
+
+#table					{	width:210px;
+							height:186px;
+							float:none;
+							color:#FFF;
+							}
+
+#bucketText				{	color:#FFF;
+							}
+		
+#bucketLeft				{	width:210px;
+							float:none;
+							color:#999;
+							}
+								
+#bucketRight			{	width:210px;
+							float:none;
+							color:#FFF;
+							}	
+								
+#bucketCentre			{	width:210px;
+							float:none;
+							color:#FFF;
+							}
+
+#BucketCentreB			{	width:685px;
+							float:none;
+							color:#FFF;
+							margin-top:20px;
+							margin-bottom:20px;
+							}
